@@ -28,7 +28,7 @@ classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models
       
   function check()
   {
-   img=document.getElementById("capture_image");
+   img=document.getElementById("captured_image");
    classifier.classify(img,gotResult);
   }
 
